@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECOSYS IT SERVICES</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="ecosys.css">
+   <script src="ecosys.js" defer></script>
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+  <div class="container">
+    <div class="header-content">
+      <div class="logo">
+        <img src="images/logo1.png" alt="ECOSYS IT SERVICES Logo">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="acceuil.html"><i class="fas fa-home"></i> Accueil</a></li>
+          <li><a href="Apropo.html"><i class="fas fa-info-circle"></i> À propos</a></li>
+          <li><a href="service.html"><i class="fas fa-cogs"></i> Services</a></li>
+          <li><a href="formation.html"><i class="fas fa-graduation-cap"></i> Formations</a></li>
+          <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </div>
+</header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+        
+      <h1>ECOSYS IT SERVICES</h1>
+      <p>Des jeunes diplômés au service de vos besoins technologiques</p>
+      <a href="#contact" class="btn">Contactez-nous</a>
+    </div>
+    <!-- <video src="images/video2.png" autoplay></video> -->
+  </section>
+
+
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nos Services</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="images/cm.jpg" alt="Vidéosurveillance">
+          <div class="service-content">
+            <h3><i class="fas fa-video"></i> Vidéosurveillance</h3>
+            <p>Installation et configuration de caméras de vidéosurveillance professionnelles pour sécuriser vos locaux et vos biens.</p>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <img src="images/format.jpg" alt="Formations">
+          <div class="service-content">
+            <h3><i class="fas fa-laptop-code"></i> Formations</h3>
+            <p>Formations en développement web & mobile, bureautique et infographie pour améliorer vos compétences techniques.</p>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <img src="images/mi.jpg" alt="Matériel Informatique">
+          <div class="service-content">
+            <h3><i class="fas fa-desktop"></i> Fourniture Matériel</h3>
+            <p>Fourniture de matériels et consommables informatiques de qualité pour équiper votre entreprise ou votre domicile.</p>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <img src="images/sitw.jpg" alt="Applications">
+          <div class="service-content">
+            <h3><i class="fas fa-code"></i> Création d'applications</h3>
+            <p>Développement d'applications sur mesure et gestion de réseaux d'entreprises selon vos besoins spécifiques.</p>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <img src="images/maintenance.jpg" alt="Maintenance">
+          <div class="service-content">
+            <h3><i class="fas fa-tools"></i> Maintenance</h3>
+            <p>Assistance et maintenance informatique, téléphonie & VOIP pour assurer le bon fonctionnement de vos équipements.</p>
+          </div>
+        </div>
+        
+        <div class="service-card">
+          <img src="images/ecommerce.jpg" alt="E-commerce">
+          <div class="service-content">
+            <h3><i class="fas fa-shopping-cart"></i> E-commerce</h3>
+            <p>Création et gestion de solutions e-commerce pour développer votre activité en ligne et atteindre de nouveaux clients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+<div id="serviceModal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <div class="modal-body">
+      <video class="modal-background" autoplay muted loop>
+        <source src="images/video2.png" type="video/mp4">
+      </video>
+      <div class="modal-info">
+        <h2 class="modal-title"></h2>
+        <div class="modal-description"></div>
+        <div class="modal-details">
+          <div class="modal-features"></div>
+          <div class="modal-pricing"></div>
+          <a href="#contact" class="btn contact-btn">Contactez-nous pour ce service</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-container">
+        <div class="footer-logo">
+          <img src="images/logoblanc.png" alt="ECOSYS IT SERVICES Logo">
+          <p>Des jeunes diplômés au service de vos besoins technologiques. Nous proposons des solutions innovantes et adaptées pour répondre à tous vos défis numériques.</p>
+        </div>
+        
+        <div class="footer-links">
+          <h3>Liens rapides</h3>
+          <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#formations">Formations</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-services">
+          <h3>Nos Services</h3>
+          <ul>
+            <li><a href="#">Vidéosurveillance</a></li>
+            <li><a href="#">Formations</a></li>
+            <li><a href="#">Fourniture matériel</a></li>
+            <li><a href="#">Développement d'applications</a></li>
+            <li><a href="#">Maintenance & VOIP</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3>Contact</h3>
+          <p><i class="fas fa-map-marker-alt"></i> Dakar, Thies, Mbour, Louga, Kolda, Saint-Louis, Diourbel SENEGAL</p>
+          <p><i class="fas fa-phone-alt"></i> +221 77 801 2731</p>
+          <p><i class="fas fa-envelope"></i> ct.ecosysitservices@outlook.fr</p>
+        </div>
+      </div>
+      
+      <div class="copyright">
+        <p>&copy; 2025 ECOSYS IT SERVICES. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
